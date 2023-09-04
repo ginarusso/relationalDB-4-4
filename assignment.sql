@@ -26,7 +26,7 @@ CREATE TABLE addresses (
 
 INSERT INTO users (username, password, email, first_name, last_name) VALUES
 ('grusso', 'password123', 'grusso@gmail.com', 'Gina', 'Russo'),
- ('arusso', 'password321', 'arusso@gmail.com', 'Andrew', 'Russo');
+('arusso', 'password321', 'arusso@gmail.com', 'Andrew', 'Russo');
 
 INSERT INTO countries (name) VALUES
 ('Italy'), 
