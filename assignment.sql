@@ -24,7 +24,9 @@ CREATE TABLE addresses (
     FOREIGN KEY(country_id) REFERENCES countries(id) 
 );
 
-INSERT INTO users (username, password, email, first_name, last_name) VALUES ('grusso', 'password123', 'grusso@gmail.com', 'Gina', 'Russo'), ('arusso', 'password321', 'arusso@gmail.com', 'Andrew', 'Russo');
+INSERT INTO users (username, password, email, first_name, last_name) VALUES
+('grusso', 'password123', 'grusso@gmail.com', 'Gina', 'Russo'),
+ ('arusso', 'password321', 'arusso@gmail.com', 'Andrew', 'Russo');
 
 INSERT INTO countries (name) VALUES
 ('Italy'), 
